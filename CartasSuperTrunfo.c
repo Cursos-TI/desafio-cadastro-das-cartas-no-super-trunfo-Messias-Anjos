@@ -45,15 +45,7 @@ int main() {
   printf("\n\n");
 
 
-
-
-  printf("Sua população e de : %d \n", Populacao);
-  printf("Sua área é de: %.1f \n", Area );  
-  printf("Seu pib é de: %.1f \n", Pib);
-  printf("Seu número de Pontos Turisticos é de: %d \n\n", PontosTuristicos);
-
-  printf("\n\n");
-
+  
 
 
     
@@ -83,7 +75,19 @@ int main() {
   printf("\n\n");
 
 
+  //Carta numero 1
+  printf("Carta 1\n");
 
+  printf("Sua população e de : %d \n", Populacao);
+  printf("Sua área é de: %.1f \n", Area );  
+  printf("Seu pib é de: %.1f \n", Pib);
+  printf("Seu número de Pontos Turisticos é de: %d \n\n", PontosTuristicos);
+
+  printf("\n\n");
+
+
+  //carta numero 2
+  printf("Carta 2\n");
 
   printf("Sua população e de : %d \n", Populacao);
   printf("Sua área é de: %.1f \n", Area );  
