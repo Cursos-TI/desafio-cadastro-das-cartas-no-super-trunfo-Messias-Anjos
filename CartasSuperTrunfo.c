@@ -103,17 +103,17 @@ int main() {
   media22 = (float)(Populacao2 / Area2);
 
   printf("A media de Pib por Area da carta 1 é de: %.2f", media1);
-  printf("\n");
+  printf("\n\n");
 
   printf("A media de Populacao por Area da carta 1 é de: %.2f", media11);
-  printf("\n");
+  printf("\n\n");
 
 
   printf("A media de Pib por Area da carta 2 é de: %.2f", media2);
-  printf("\n");
+  printf("\n\n");
 
   printf("A media de Populacao por Area, da carta 2 é de: %.2f", media22);
-  printf("\n");
+  printf("\n\n");
 
 
     
