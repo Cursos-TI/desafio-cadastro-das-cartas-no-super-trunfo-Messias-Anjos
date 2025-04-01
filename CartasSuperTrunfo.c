@@ -18,6 +18,7 @@ int main() {
     int PontosTuristicos1, PontosTuristicos2;
     float media1, media11, media2, media22;
     float superPoder1, superPoder2;
+    int comparacaoPopulacao, comparacaoArea, comparacaoPib, comparacaoPontosTuristico;
 
     
     // Cadastro das Cartas:
@@ -126,8 +127,24 @@ int main() {
   superPoder2 = (Pib2 + PontosTuristicos2 + Area2 + Populacao2) / 4;
   printf("O Super Poder da carta 2 é de: %.2f", superPoder2);
 
+  comparacaoArea = Area1 > Area2;
+  comparacaoPib = Pib1 > Pib2;
+  comparacaoPontosTuristico = PontosTuristicos1 > PontosTuristicos2;
+  comparacaoPopulacao = Populacao1 > Populacao2;
+
   printf("\n\n");
 
+  printf("Comparação da Area da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoArea);
+  printf("\n\n");
+  ''
+  printf("Comparação da Pib da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoPib);
+  printf("\n\n");
+
+  printf("Comparação da Pontos Turisticos da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoPontosTuristico);
+  printf("\n\n");
+
+  printf("Comparação da População da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoPopulacao);
+  printf("\n\n");
 
     
     return 0;
