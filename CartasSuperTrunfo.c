@@ -136,7 +136,7 @@ int main() {
 
   printf("Comparação da Area da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoArea);
   printf("\n\n");
-  ''
+  
   printf("Comparação da Pib da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoPib);
   printf("\n\n");
 
