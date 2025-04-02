@@ -146,6 +146,39 @@ int main() {
   printf("Comparação da População da carta 1 e carta 2, se for menor resultado 0, se for maior rersultado 1:  %d", comparacaoPopulacao);
   printf("\n\n");
 
+  if(Populacao1 > Populacao2){
+    printf("A População da carta 1 e maior que a População da carta 2");
+  } else {
+    printf("A População da carta 2 é maior que a População da carta 1");
+  }
+
+  printf("\n");
+  
+  if(Area1 > Area2){
+    printf("A Area da carta 1 e maior que a Area da carta 2");
+  } else {
+    printf("A Area da carta 2 é maior que a Area da carta 1");
+  }
+
+  printf("\n");
+
+  if(PontosTuristicos1 > PontosTuristicos2){
+    printf("O Ponto Turistico da carta 1 e maior que o Ponto Turistico da carta 2");
+  } else {
+    printf("O Ponto Turistico da carta 2 é maior que o Ponto Turistico da carta 1");
+  }
+
+  printf("\n");
+
+  if(Pib1 > Pib2){
+    printf("O Pib da carta 1 e maior que o Pib da carta 2");
+  } else {
+    printf("O Pib da carta 2 é maior que o Pib da carta 1");
+  }
+
+  printf("\n");
+
+
     
     return 0;
 }
